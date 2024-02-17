@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DRIWAKE - Aware To Beware</title>
+
+  <!--- favicon --->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+
+  <!--- custom css link --->
+  <link rel="stylesheet" href="style.css">
+
+  <!--- google font link --->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- 
+    - preload images
+  -->
+</head>
+
+<body id="top">
+
+  <div id="progressbar"></div>
+  <div id="scrollpath"></div>
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="image-cropper">
+        <h1>
+          <a href="#"><img src=".\images\logoo.jpg" style="width: 120px;" class="profile-pic"></a>
+        </h1>
+      </div>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">Driwake</a>
+
+          <button class="nav-close-btn" aria-label="Clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item" data-text="Home">
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item" data-text="About Us">
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>About Us</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item" data-text="Timeline">
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Timeline</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item" data-text="Login">
+            <a href="login.html" class="navbar-link" data-nav-link="">
+              <span>Login</span>
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item" data-text="Contact Us">
+            <a href="#" class="navbar-link" data-nav-link>
+              <span>Contact Us</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-contact">
+
+        <div>
+          <p class="contact-label">About DRIWAKE call in INDIA</p>
+
+          <a href="tel:12345678910" class="contact-number">9125711922</a>
+        </div>
+
+        <div class="contact-icon">
+          <ion-icon name="call-outline"></ion-icon>
+        </div>
+
+      </div>
+
+      <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="home" style="background-image: url('images/hero-banner.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+            <h2 class="h1 hero-title">
+              <span class="span">THE BEST DRIVERS ARE AWARE THAT </span> THEY MUST BEWARE
+            </h2>
+            <br>
+            <p class="hero-text">
+              <strong>
+                STAY ALERT - STAY SAFE
+              </strong>
+            </p>   
+            <img src="images\logoo.jpg" width="116" height="116" loading="lazy" alt="Driwake" class="hero-shape shape-2">
+          </div>
+
+        </div>
+      
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner img-holder" style="--width: 400; --height: 720;">
+            <img src="images\truck-man-2.jpg" width="400" height="720" loading="lazy" alt=""
+              class="img-cover">
+
+            <img src="images\truckman.jpg" width="260" height="170" loading="lazy" alt=""
+              class="abs-img abs-img-1">
+
+            <img src="images/about-shape-2.png" width="500" height="500" loading="lazy" alt=""
+              class="abs-img abs-img-2">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">"Unlocking Motive: A Symphony of Benefits"</p>
+
+            <h2 class="h2 section-title">VigilanceCab - Fortifying Drivers, Enriching the Expedition </h2>
+
+            <p class="section-text" style="font-size: 16px;">
+              Motive:
+            </p>
+
+            <Ol class="about-list">
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text" style="font-size: large;">
+                  <strong>
+                    Enhancing Driver Well-being:
+                  </strong>
+                  Focused on prioritizing the health and alertness of truck drivers during extended hours of operation.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text" style="font-size: large;">
+                  <strong>
+                    Accident Prevention:
+                  </strong>
+                  Mitigating the risks associated with driver fatigue caused by poor air quality within the cabin.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text" style="font-size: large;">
+                  <strong>
+                    Real-time Monitoring:
+                  </strong>
+                  Implementing advanced sensors to continuously assess air quality levels and monitor vital health characteristics.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text" style="font-size: large;">
+                  <strong>
+                    Proactive Intervention:
+                  </strong>
+                  Offering instant alerts to drivers and fleet management when concerning health parameters are detected, ensuring swift action to prevent potential accidents.
+                </p>
+              </li>
+              </Ol>
+              
+
+                <h2 class="h2 section-title">
+                  Benefits:
+                </h2>
+                 <li class="about-item">
+                  <div class="about-icon">
+                    <ion-icon name="chevron-forward"></ion-icon>
+                  </div>
+  
+                  <p class="about-text" style="font-size: large;">
+                    <strong>
+                      Improved Driver Safety:
+                    </strong>
+                    Reducing the likelihood of accidents caused by compromised driver health and alertness.
+                  </p>
+                </li>
+                <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text" style="font-size: large;">
+                  <strong>
+                    Operational Efficiency:
+                  </strong>
+                  Minimizing downtime due to health-related issues by addressing concerns in real-time.
+                </p>
+              </li>
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text" style="font-size: large;">
+                  <strong>
+                    Health-conscious Fleet Management:
+                  </strong>
+                    Empowering fleet managers to make informed decisions based on real-time data on driver well-being.
+                </p>
+              </li>
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text" style="font-size: large;">
+                  <strong>
+                    Enhanced Driver Experience:
+                  </strong>
+                  Creating a safer and more comfortable environment for drivers during long-haul journeys.
+                </p>
+              </li>
+
+            
+
+            <a href="#" class="btn">Home page</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle">ABOUT DRIWAKE</p>
+
+          <h2 class="h2 section-title">
+           Driver Drowsiness Alert SystemS</h2>
+
+          <p class="section-text" style="font-size: large;">
+            DRIWAKE's multifaceted approach combines driver drowsiness mitigation, collision alerts, smart speed control, real-time location tracking, and emergency response integration to significantly enhance road safety and reduce accidents caused by both harmful gases and driver fatigue within the truck cabin.
+
+
+
+
+          </p>
+
+          <ul class="service-list grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images\responsive.png" width="80" height="60" loading="lazy" alt="Truck">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">01</span>Comprehensive Emergency Response System:
+                </h3>
+
+                <p class="card-text">
+                  The system swiftly calls nearby National Highways Authority of India (NHAI) centers and pre-set emergency contacts in critical situations, ensuring prompt assistance and accident prevention on highways.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Scroll Up</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images\drowssiness.jpg" width="74" height="60" loading="lazy" alt="Ship">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">02</span> Driver Drowsiness Mitigation:
+                </h3>
+
+                <p class="card-text">
+                  The system incorporates driver drowsiness detection technology, actively working to mitigate the risk of accidents caused by driver fatigue. DRIWAKE provides alerts to the driver when signs of drowsiness are detected.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Scroll Up</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images\car-accident.jpg" width="60" height="60" loading="lazy" alt="Airplane">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">03</span> Collision Alerts and Prevention:
+                </h3>
+
+                <p class="card-text">
+                  Utilizing IoT technology and a WiFi microcontroller, DRIWAKE offers collision alerts by constantly analyzing the surroundings. In case of a potential collision, the system may autonomously control the vehicle's speed to prevent accidents.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Scroll Up</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images\speed-control.png" width="50" height="60" loading="lazy" alt="Train">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">04</span> Smart Speed Control:
+                </h3>
+
+                <p class="card-text">
+                  DRIWAKE not only alerts the driver about trapped harmful gases but also takes proactive measures by dynamically adjusting the vehicle's speed based on the severity of the detected air quality issues. This feature ensures immediate response to potential health hazards.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Scroll Up</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images\location.png" width="63" height="60" loading="lazy" alt="Trolley">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">05</span> Real-time Location Tracking:
+                </h3>
+
+                <p class="card-text">
+                  The system continuously tracks the real-time location of the driver, providing accurate updates to both the truck owner and the company. This feature enhances fleet management capabilities and ensures better coordination.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Scroll Up</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images\emergency.jpg" width="46" height="60" loading="lazy" alt="Paper">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">06</span> Emergency Response Integration:
+                </h3>
+
+                <p class="card-text">
+                  DRIWAKE is equipped to make emergency calls to nearby National Highways Authority of India (NHAI) centers and predefined emergency contacts. In the event of a critical situation, this functionality ensures swift response and assistance, further enhancing road safety.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">Scroll Up</span>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">Vigilance Cab aka  DRIWAKE </p>
+
+              <h2 class="h2 section-title"> 
+                FEATURES
+              </h2>
+
+              <p class="section-text">
+                INNOVATION UNLEASHED: DRIWAKE's Cutting-Edge Features Transforming Road Safety
+              </p>
+            </div>
+
+            <a href="#" class="btn">HOME</a>
+
+          </div>
+
+          <ul class="feature-list grid-list">
+
+            <li>
+              <div class="feature-card" style="--card-number: '01'">
+
+                <div class="card-icon">
+                  <img src="./images/feature-icon-1.png" width="72" height="91" alt="">
+                </div>
+
+                <h3 class="h3 card-title">CONTACT LIST INTEGRATION FOR ALERTS:</h3>
+
+                <p class="card-text">               
+                  THE DEVICE SAVES IMPORTANT CONTACTS SUCH AS FAMILY OR COMPANY MANAGEMENT FOR DRIVER EMERGENCIES. IN CASES OF DROWSINESS ALERTS OR COLLISIONS, IT ALERTS THESE CONTACTS QUICKLY, ENSURING A FASTER RESPONSE TO POTENTIAL EMERGENCIES.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card" style="--card-number: '02'">
+
+                <div class="card-icon">
+                  <img src="./images/feature-icon-2.png" width="94" height="94" alt="">
+                </div>
+
+                <h3 class="h3 card-title">IMMEDIATE ALERT FOR CLOSED EYES:</h3>
+
+                <p class="card-text">
+                  WHEN THE EYE BLINK SENSOR DETECTS THAT THE DRIVER'S EYES HAVE BEEN CLOSED FOR AS LITTLE AS 1 SECOND, THE SYSTEM WILL IMMEDIATELY TRIGGER AN ALARM, PROVIDING A REAL-TIME ALERT TO THE DRIVER, thus ensuring ENHANCED SAFETY ON THE ROAD.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card" style="--card-number: '03'">
+
+                <div class="card-icon">
+                  <img src="./images/feature-icon-3.png" width="93" height="93" alt="">
+                </div>
+
+                <h3 class="h3 card-title"> SMART SPEED CONTROL</h3>
+               
+                <p class="card-text">
+                  
+THE SYSTEM HAS THE CAPABILITY TO SLOW DOWN THE VEHICLE'S SPEED. THIS FEATURE IS SPECIFICALLY DESIGNED TO GRADUALLY AND SAFELY DECREASE THE TRUCK'S SPEED IN RESPONSE TO DRIVER FATIGUE, THEREBY ENHANCING OVERALL ROAD SAFETY.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+           
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-label="project">
+        <div class="container">
+
+          <p class="section-subtitle">MORE</p>
+
+          <h2 class="h2 section-title">ABOUT OUR PROJECT</h2>
+
+          <p class="section-text">
+            Interested in delving deeper into our project? Learn more about our workflow, tech stack, use cases, and components.
+          </p>
+
+          <ul class="project-list">
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="images\uscomp.jpg" width="397" height="352" loading="lazy"
+                    alt="USED COMPONENTS" class="img-cover">
+                </figure>
+
+                
+
+                <div class="card-content">
+                  <p class="card-tag">USED COMPONENTS</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" style="color: #003153;">Explore Components</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Component Breakdown</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="images\techstack.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+              
+
+                <div class="card-content">
+                  <p class="card-tag">TECH STACKS USED</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" style="color:#003153;">Tech Stack Overview</a>
+                  </h3>
+
+                  <a href="#" class="card-link">In-Depth Tech Analysis</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="images\usecases.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                
+
+                <div class="card-content">
+                  <p class="card-tag"> USE CASES</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" style="color: #003153;">Use Case Showcase</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Use Case Breakdown</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="images\wf.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+                
+
+                <div class="card-content">
+                  <p class="card-tag">WORK FLOW</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" style="color: #003153;">Workflow Visualization</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Workflow Steps Breakdown</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="project-item">
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
+                  <img src="images\wf2.jpg" width="397" height="352" loading="lazy"
+                    alt="Warehouse inventory" class="img-cover">
+                </figure>
+
+              
+
+                <div class="card-content">
+                  <p class="card-tag">WORKFLOW</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" >Workflow Visualization</a>
+                  </h3>
+
+                  <a href="#" class="card-link">Workflow Steps Breakdown</a>
+                </div>
+
+              </div>
+            </li>
+
+            
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-label="blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Our Blogs</p>
+
+          <h2 class="h2 section-title">Recent news & events</h2>
+
+
+          <ul class="blog-list grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 770; --height: 500;">
+                  <img src="images\techstack.jpg" width="770" height="500" loading="lazy"
+                    alt="At the end of the day, going forward, a new normal that has evolved from. your only logistic partner."
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="card-meta" datetime="2022-08-02">
+                    <span class="span">02</span> Aug
+                  </time>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">
+                      At the end of the day, going forward, a new normal that has evolved from. your only logistic
+                      partner.
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit. typesetting
+                    industry the standard
+                    dummy text ever since the when an printer.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Read More</span>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 770; --height: 500;">
+                  <img src="images\usecases.jpg" width="770" height="500" loading="lazy"
+                    alt="Going forward, a new normal that has evolved from generation. moving your products across all borders."
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="card-meta" datetime="2022-08-21">
+                    <span class="span">29</span> Dec
+                  </time>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">
+                      Going forward, a new normal that has evolved from generation. moving your products across all
+                      borders.
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit. typesetting
+                    industry the standard
+                    dummy text ever since the when an printer.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Read More</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <!--
+        - #REVIEW SECTION
+      -->
+      
+      <div class="container1" style="background-color:hsl(203deg 93.86% 64.11%);">
+        <div class="container__left" style="font-size: larger;">
+          <br>
+          <h1 style="text-align: center; font-size: 25px;"><u>Read what our customers love about us</u></h1>
+          <p style="padding: 30px;">
+            <strong>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quae deleniti, aspernatur dolorem, nobis eaque voluptatibus dolor deserunt harum cupiditate praesentium ullam incidunt asperiores! Ipsum magnam pariatur laborum amet incidunt?
+            </strong>  
+          </p>
+          <p style="padding: 30px;">
+            <strong>We have helped multiple drivers to reach their destintion safely.</strong>
+          </p>
+        </div>
+        <div class="container__right">
+          <div class="card">
+            <img src="images/review_man3.png" width="120px" alt="user" />
+            <div class="card__content" style="font-size: larger;">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  We had a great time collaboraring with the Filament team. They
+                  have my high recommendation!
+                </p>
+                <h4 style="font-size: 16px;">-<strong> Rakesh Kushwaha</strong> </h4>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="font-size: larger;">
+            <img src="images/review_man2.png" width="180px" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  The team drastically improved our product's user experience &
+                  increased our business outreach.
+                </p>
+                <h4 style="font-size: 16px;">- <strong>Jagpal Singh</strong></h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/review_man1.png" width="90px" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details" style="font-size: larger;">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4 style="font-size: 16px;">-<strong>Harinder Tyagi</strong></h4>
+              </div>
+            </div>
+          </div>
+        <br>
+        <br>
+        </div>
+      </div>
+      
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <figure class="newsletter-banner img-holder">
+
+            <img src="./images/newsletter-banner.png" width="303" height="381" alt="newsletter banner" class="w-100">
+          </figure>
+
+          <div class="newsletter-content">
+
+            <h2 class="h2 section-title">Subscribe for updates</h2>
+
+            <form action="" class="newsletter-form">
+
+              <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="email" class="email-field">
+
+              <button type="submit" class="newsletter-btn">Subscribe Now</button>        
+
+            </form>
+
+          </div>
+
+        </div>
+      
+      </section>
+
+    </article>
+
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  
+    <div style="background-color: beige;">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" style="color: #003153;" class="logo">DRIWAKE</a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" href="https://twitter.com/home" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+
+            </li>
+
+          </ul>
+
+        </div>
+        
+      </div>
+
+    </div>
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript">
+    let progress = document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function(){
+      let progressHeight = (window.pageYOffset/totalHeight)*100;
+      progressHeight = progressHeight+"%";
+    }
+  </script>
+
+</body>
+
+</html>
